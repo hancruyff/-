@@ -16,7 +16,7 @@
 에이전트가 주어진 상황에서 최대한의 보상을 얻을 수 있는 행동을 선택하는 것
 
 ### q-learning 
-<img src="https://github.com/user-attachments/assets/37c94158-a7bd-4974-9d90-b9d5653547b8" width="500" height="100"/>
+<img src="https://github.com/user-attachments/assets/37c94158-a7bd-4974-9d90-b9d5653547b8" width="700" height="100"/>
 
 테이블을 통해 Q함수를 찾아서 Q값을 이용하여 최적의 행동을 선택하는 방식
 스타크래프트의 경우 Frozen Lake와 같은 단순한 게임과 달리 매우 복잡한 게임이라 Q-Learning을 사용하기 부적합
