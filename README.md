@@ -1,7 +1,10 @@
 ## 목차
 [1. 개요](#1.-개요)
+
 [2. 강화학습](#2.-강화학습)
+
 [3. 주요 코드](#3.-주요코드)
+
 [4. 결과](#4.-결과)
 
 ## 1. 개요
@@ -9,10 +12,12 @@
 
 ## 2. 강화학습
 <img src="https://github.com/user-attachments/assets/036926fe-0c6d-4c94-bdb9-70b1ae664467" width="500" height="300"/>
+
 에이전트가 주어진 상황에서 최대한의 보상을 얻을 수 있는 행동을 선택하는 것
 
 ### q-learning 
 <img src="https://github.com/user-attachments/assets/37c94158-a7bd-4974-9d90-b9d5653547b8" width="300" height="100"/>
+
 테이블을 통해 Q함수를 찾아서 Q값을 이용하여 최적의 행동을 선택하는 방식
 스타크래프트의 경우 Frozen Lake와 같은 단순한 게임과 달리 매우 복잡한 게임이라 Q-Learning을 사용하기 부적합
 
@@ -48,8 +53,10 @@ def step(self, obs):
 
 ### 학습
 ![317980205-4b6f1d97-b705-4b8d-a507-b13d6550cf10](https://github.com/user-attachments/assets/afbf3071-b302-4d00-ab57-083e5c5d685d)
+
 봇을 상대로 학습시키고 테스트
 
 ## 4. 결과
 ![image (15)](https://github.com/user-attachments/assets/176f6031-b6fa-486f-a5e7-a2c0181dbceb)
+
 80%이상의 승률을 기록
