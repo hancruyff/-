@@ -1,4 +1,4 @@
-## 목차
+## 🗉목차
 [1. 개요](#1-개요)
 
 [2. 강화학습](#2-강화학습)
@@ -7,10 +7,13 @@
 
 [4. 결과](#4-결과)
 
-## 1. 개요
+## 1. 🎮개요
+
 스타크래프트를 플레이하는 에이전트 개발
 
-## 2. 강화학습
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+
+## 2. 🤖강화학습
 <img src="https://github.com/user-attachments/assets/036926fe-0c6d-4c94-bdb9-70b1ae664467" width="500" height="300"/>
 
 에이전트가 주어진 상황에서 최대한의 보상을 얻을 수 있는 행동을 선택하는 것
@@ -32,7 +35,7 @@ Q-Learning과 신경망을 결합하여 상태의 복잡성으로 인해
 
 스타크래프트와 같은 복잡한 상태를 가진 문제를 해결하기 적합
 
-## 3. 주요 코드
+## 3. ⌨️주요 코드
 ```
 def __init__(self):
 에이전트 초기화
@@ -55,7 +58,7 @@ def step(self, obs):
 
 게임 속 다양한 정보는 obs.observation 객체를 통해 접근
 
-### 에이전트 설계
+### 🏗️에이전트 설계
 <img src="https://github.com/user-attachments/assets/09612529-dcee-40d2-a126-5a2e25e7ed77" width="300" height="300"/>
 
 에이전트가 선택할 수 있는 행동은  5가지
@@ -75,12 +78,12 @@ No-op : 아무것도 하지 않음
 공격 : 마린을 선택하여 적을 공격
 
 
-### 학습
+### 🧠학습
 ![317980205-4b6f1d97-b705-4b8d-a507-b13d6550cf10](https://github.com/user-attachments/assets/afbf3071-b302-4d00-ab57-083e5c5d685d)
 
 봇을 상대로 학습시키고 테스트
 
-## 4. 결과
+## 4. 📊결과
 ![image (15)](https://github.com/user-attachments/assets/176f6031-b6fa-486f-a5e7-a2c0181dbceb)
 
 80%이상의 승률을 기록
